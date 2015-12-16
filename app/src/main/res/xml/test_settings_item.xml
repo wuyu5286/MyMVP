@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/theme">
+        <Preference
+            android:key="theme"
+            android:title="@string/theme_colors"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/read">
+        <ListPreference
+            android:defaultValue="4"
+            android:dialogTitle="@string/text_size"
+            android:entries="@array/mdColorNames"
+            android:entryValues="@array/mdColorNames"
+            android:key="@string/text_size"
+            android:title="@string/text_size"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="showRemark"
+            android:title="@string/remark"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pLoadOrigPic"
+            android:summary="@string/load_orig_pic_summary"
+            android:title="@string/load_orig_pic"/>
+    </PreferenceCategory>
+</PreferenceScreen>

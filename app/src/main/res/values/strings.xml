@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">JuMengShop</string>
+    <string name="retry">重试</string>
+    <string name="tips">出问题了</string>
+    <string name="end">没有更多数据了</string>
+    <string name="home">首页</string>
+    <string name="together">一起买</string>
+    <string name="grab">九点抢</string>
+    <string name="self">我的</string>
+
+    <string-array name="mdColorNames">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Deep purple</item>
+        <item>Indigo</item>
+        <item>Blue</item>
+        <item>Light blue</item>
+        <item>Cyan</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Light green</item>
+        <item>Lime</item>
+        <item>Yellow</item>
+        <item>Amber</item>
+        <item>Orange</item>
+        <item>Deep orange</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>Blue grey</item>
+    </string-array>
+
+    <string name="theme">主题</string>
+    <string name="theme_colors">主题颜色</string>
+    <string name="read">阅读</string>
+    <string name="text_size">字体大小</string>
+    <string name="remark">显示备注名</string>
+    <string name="load_orig_pic">默认加载原图</string>
+    <string name="load_orig_pic_summary">建议牛逼的WIFI环境开启</string>
+</resources>

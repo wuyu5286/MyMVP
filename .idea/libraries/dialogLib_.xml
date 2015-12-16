@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="dialogLib-">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/dialogLib/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/dialogLib/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/dialogLib/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

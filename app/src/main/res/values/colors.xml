@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#0186CF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#a0a0a0</color>
+    <color name="red">#E53739</color>
+    <color name="orange">#F7AB00</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="comm_white">#FFffffff</color>
+    <color name="comm_black">#FF000000</color>
+    <color name="comm_gray">#FF888888</color>
+    <color name="comm_blue">#FF52A0DB</color>
+    <color name="comm_red">#FFFF0000</color>
+    <color name="comm_transparent">#00000000</color>
+
+    <color name="comm_tab_selected_strip">#ffffffff</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <!--适配Material Design后添加的颜色-->
+    <color name="text_100">#ff000000</color>
+    <color name="text_87">#dd000000</color>
+    <color name="text_80">#cc000000</color>
+    <color name="text_60">#99000000</color>
+    <color name="text_54">#69000000</color>
+
+    <color name="text_100_inverse">#ffffffff</color>
+    <color name="text_87_inverse">#ddffffff</color>
+    <color name="text_80_inverse">#ccffffff</color>
+    <color name="text_60_inverse">#99ffffff</color>
+    <color name="text_54_inverse">#89ffffff</color>
+
+    <color name="divider">#ebeef4</color>
+    <color name="edit_hint">#ff808080</color>
+
+    <color name="search_text_color">#ffa3a3a3</color>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+    <color name="bg_followers_counter">#ff5656</color>
+
+    <color name="bg_emotion">#ff313740</color>
+
+    <color name="chglib_background_default_divider_color">#DADADC</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+</resources>

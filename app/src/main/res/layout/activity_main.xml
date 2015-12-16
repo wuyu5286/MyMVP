@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider"/>
+
+    <RadioGroup
+        android:id="@+id/main_tab"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:background="@color/gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/main_home"
+            style="@style/MainBottomTab"
+            android:checked="true"
+            android:drawableTop="@drawable/icon_home"
+            android:text="@string/home"/>
+
+        <RadioButton
+            android:id="@+id/main_together"
+            style="@style/MainBottomTab"
+            android:drawableTop="@drawable/icon_home"
+            android:text="@string/together"/>
+
+        <ImageView
+            android:id="@+id/main_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_tab"
+            android:padding="8dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <RadioButton
+            android:id="@+id/main_grab"
+            style="@style/MainBottomTab"
+            android:drawableTop="@drawable/icon_home"
+            android:text="@string/grab"/>
+
+        <RadioButton
+            android:id="@+id/main_self"
+            style="@style/MainBottomTab"
+            android:drawableTop="@drawable/icon_home"
+            android:text="@string/self"/>
+    </RadioGroup>
+
+</LinearLayout>

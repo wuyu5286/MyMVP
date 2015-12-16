@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义 RecyclerView-->
+    <declare-styleable name="WrapRecyclerView">
+        <attr name="wrap_divider" format="reference|color"/>
+        <attr name="wrap_dividerVertical" format="reference|color"/>
+        <attr name="wrap_dividerHorizontal" format="reference|color"/>
+        <attr name="wrap_dividerHeight" format="dimension"/>
+        <attr name="wrap_dividerVerticalHeight" format="dimension"/>
+        <attr name="wrap_dividerHorizontalHeight" format="dimension"/>
+        <attr name="wrap_itemViewBothSidesMargin" format="dimension"/>
+        <attr name="wrap_emptyView" format="reference"/>
+        <attr name="wrap_isEmptyViewKeepShowHeadOrFooter" format="boolean"/>
+        <attr name="wrap_layoutManager" format="enum">
+            <enum name="linear" value="0"/>
+            <enum name="grid" value="1"/>
+            <enum name="staggeredGrid" value="2"/>
+        </attr>
+        <attr name="wrap_layoutManagerOrientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="wrap_spanCount" format="integer"/>
+        <attr name="wrap_isReverseLayout" format="boolean"/>
+        <attr name="wrap_headerDividersEnabled" format="boolean"/>
+        <attr name="wrap_footerDividersEnabled" format="boolean"/>
+    </declare-styleable>
+    <!--RoundImageView-->
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" format="dimension"/>
+        <attr name="type">
+            <enum name="round" value="1"/>
+            <enum name="circle" value="0"/>
+        </attr>
+    </declare-styleable>
+    <!--CircleImageView-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="tab_IndicatorColor" format="color" />
+        <attr name="tab_UnderlineColor" format="color" />
+        <attr name="tab_DividerColor" format="color" />
+        <attr name="tab_IndicatorHeight" format="dimension" />
+        <attr name="tab_UnderlineHeight" format="dimension" />
+        <attr name="tab_DividerPadding" format="dimension" />
+        <attr name="tab_TabPaddingLeftRight" format="dimension" />
+        <attr name="tab_ScrollOffset" format="dimension" />
+        <attr name="tab_TabBackground" format="reference" />
+        <attr name="tab_ShouldExpand" format="boolean" />
+        <attr name="tab_TextAllCaps" format="boolean" />
+    </declare-styleable>
+
+
+    <!--主题颜色-->
+    <attr name="theme_color" format="reference|color"/>
+    <attr name="theme_status_bar_color" format="reference|color"/>
+    <!--主题背景色-->
+    <attr name="theme_background" format="reference|color"/>
+    <!--flat样式的TextView-->
+    <attr name="flat_text" format="reference|color"/>
+    <attr name="fits_windows" format="boolean"/>
+    <attr name="text_title" format="reference|color"/>
+    <attr name="text_subhead" format="reference|color"/>
+    <attr name="text_body" format="reference|color"/>
+    <!--timeline的分割线-->
+    <attr name="divider_timeline_item" format="reference|color"/>
+    <!--timeline的背景-->
+    <attr name="bg_timeline_item" format="reference"/>
+    <!--左侧菜单的Header的高度-->
+    <attr name="menu_header_height" format="dimension"/>
+</resources>
